@@ -10,7 +10,6 @@ while True:
 
         break
 
-print("n and a values are :",n,a)
 
 def func(n,a):
 
@@ -24,4 +23,4 @@ def func(n,a):
 
     return s
 
-print(func(n,a))
+print("{} digit representation of {} is {}".format(a,n,func(n,a)))
