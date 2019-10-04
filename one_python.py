@@ -11,3 +11,17 @@ while True:
         break
 
 print("n and a values are :",n,a)
+
+def func(n,a):
+
+    s = str()
+
+    while n>0:
+
+        s = str(n%a)+s
+
+        n = n//a
+
+    return s
+
+print(func(n,a))
