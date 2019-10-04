@@ -11,7 +11,7 @@ while True:
         break
 
 
-def func(n,a):
+def converter(n,a):
 
     s = str()
 
@@ -23,4 +23,4 @@ def func(n,a):
 
     return s
 
-print("{} digit representation of {} is {}".format(a,n,func(n,a)))
+print("{} digit representation of {} is {}".format(a,n,converter(n,a)))
